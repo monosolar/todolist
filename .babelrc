@@ -1,6 +1,6 @@
 {
   "plugins": [
-    ["transform-react-jsx", "transform-es2015-modules-commonjs"]
+    ["transform-react-jsx"]
   ],
   "presets": ["react", "stage-0"]
 }
