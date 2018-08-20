@@ -1,0 +1,99 @@
+.common-button {
+  background-color: rgb(197, 159, 247);
+  
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  height: 30px;
+  line-height: 30px;
+  text-align: center; 	
+
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+  margin: 5px;
+}
+
+input[type=text] {
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.input input {
+  width: 100%;
+}
+
+.inputEdit {
+  background-color: rgb(130, 88, 185);
+  color: white;
+}
+
+.input > div {
+  display: flex;
+}
+
+.input > div div {
+  margin: 5px;
+}
+
+.todo-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.todo-list > li { 
+  height: 45px;
+  margin: 5px;
+  padding-left: 10px;
+  display: flex;
+  background-color: rgb(214, 203, 228);
+
+  align-items: center
+}
+
+.todo-dragging-item {
+  display: none !important;
+}
+
+.todo-item-shadow {
+  background-color: rgba(241, 238, 185) !important;
+  opacity: 0.5;
+}
+
+.todo-list li .todo-item-text {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.todo-list li .todo-item-buttons-container {
+  display: flex;  
+}
+
+.todo-list li .todo-item-buttons-container .common-button {
+  margin: 5px;
+}
+
+.item-done {
+  text-decoration: line-through;
+}
+
+body > div {
+  justify-content: center;
+  display: flex
+}
+
+body > div > div {
+  width: 800px;
+}
